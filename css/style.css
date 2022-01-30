@@ -1,0 +1,18 @@
+header {
+    background-color: red; /* Цвет фона */
+    color: white;
+    width: 400px;
+    height: 200px;
+    margin-top: 200px; /* Внешний отступ */
+    padding-bottom: 50px; /* Внутренний отступ */
+    margin: 0px 0px 0px 0px; /* Сверху Справо Снизу Слево (по часовой) */
+    padding: 0 0 0 0; /* Сверху Справо Снизу Слево (по часовой) */
+}
+
+.block-info {
+    color: orange;
+}
+
+.block-link {
+    color: red;
+}
