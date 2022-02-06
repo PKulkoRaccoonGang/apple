@@ -1,18 +1,98 @@
-header {
-    background-color: red; /* Цвет фона */
-    color: white;
-    width: 400px;
-    height: 200px;
-    margin-top: 200px; /* Внешний отступ */
-    padding-bottom: 50px; /* Внутренний отступ */
-    margin: 0px 0px 0px 0px; /* Сверху Справо Снизу Слево (по часовой) */
-    padding: 0 0 0 0; /* Сверху Справо Снизу Слево (по часовой) */
+strong {
+    background-color: green;
 }
 
-.block-info {
-    color: orange;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.block-link {
+.test {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px; */
+    cursor: pointer;
+
+}
+
+/* событие при наведении курсора */
+.test:hover {
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+.text {
+    font-size: 15px;
+    line-height: 20px;
+    min-width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
     color: red;
+}
+
+
+.items {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* position: relative; */
+}
+
+.item {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    
+}
+
+.item:nth-child(2) {
+    background-color: blue;
+}
+
+
+.item:first-child {
+    background-color: aliceblue;
+}
+
+.item:last-child {
+    background-color: orange;
+    position: sticky;
+}
+
+
+
+
+.picture {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 150px;
+    position: relative;
+}
+
+.icon {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: static;
+    top: 0px;
 }
